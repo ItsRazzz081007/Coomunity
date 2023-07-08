@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Navigation bar */
+  .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #40128B;
+    padding: 22px 150px;
+  }
+  
+  .header .nav * {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .header .nav .logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #DEDEDE;
+  }
+  .header .nav .menu li {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 35px;
+  }
+  
+  .header .nav .menu li a {
+    color: #DEDEDE;
+  }
+
+  /* Hero */
+.header .hero {
+  background-color: #213555;
+}
+
+.header .hero  {
+  width: 100%;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header .hero .hero_left h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  align-items:center;
+}
+
+.header .hero .hero_left h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 96px;
+  display: flex;
+  align-items:flex-end;
+}
+
+.header .hero .hero_left p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header .hero .hero_one img {
+  height: 100%;
+  display: flex;
+  border-radius: 200px;
+}
+
+.header .hero .hero_left .btn {
+  display: inline-block;
+  background-color: #9D9D9D;
+  color: #4F709C;
+  padding: 11px 94px;
+  margin-top: 120px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height:36px;
+  align-items:flex-end;
+}
+
+/* Section */
+section {
+  padding: 75px 100px;
+}
+
+/* Section One */
+#one {
+  background-color: #213555;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.one .one_left img {
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.one .one_right h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #a9b021dd;
+}
+
+.one .one_right p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #DEDEDE;
+}
+
+/* Section Two */
+.two {
+  background-color: #213555;
+}
+
+.two .two_title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #fff;
+}
+
+.two .three_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.two .three_cards .first_card img {
+  width: 612px;
+  height: 888px;
+}
+
+.two .three_cards .second_card img {
+  width: 612px;
+  height: 888px;
+  margin-top: 50px;
+}
+
+.two .three_cards .third_card img {
+  width: 612px;
+  height: 888px;
+}
+
+/* Section Three */
+/*
+#three {
+  background-color: #d8ffeb;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.three .three_left h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #10462a;
+}
+
+.three .three_left ol li {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2f2f2f;
+}
+
+.three .three_right img {
+  width: 560px;
+  height: 392px;
+}
+*/
+
+/* Footer */
+#footer {
+  background-color: #213555;
+  padding: 42px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer .footer_logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer .footer_right {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
